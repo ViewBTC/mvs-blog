@@ -1,16 +1,17 @@
 ---
 title: 元界(Metaverse)安装与使用手册
-date: 2017-04-07 13:44:21
+date: 2017-04-08 13:44:21
 tags: Metaverse
 categories: Guide
 ---
+[Go to English Version](http://blog.mvs.live/mvs-user-guide-en/)
 
 开始
 ---------------
 ### 试用
 元界提供测试网络的WEB在线测试页面
 点击进入测试节点1: <http://test1.metaverse.live:8820>
-点击进入测试节点4：<http://test4.metaverse.live:8820>
+点击进入测试节点4: <http://test4.metaverse.live:8820>
 
 ### 开始安装与使用
 #### Windows 版本
@@ -64,7 +65,7 @@ categories: Guide
 ```bash
 #解压缩
 tar -xzvf mvs067-linux-x86_64.tar.gz
-#执行'mvs-isntall'安装WEB-UI，提示安装结束,(此步骤可选)
+#执行'mvs-isntall'安装WEB-UI，提示安装结束。(此步骤可选)
 ./mvs-install
 ```
 
@@ -98,25 +99,25 @@ b. 浏览器端与其他平台操作相同:
 如果切换新钱包，原账户名和密码不可使用，需要重新设置，即使忘记也没有关系，只需要备份好主私钥助记符即可。
 #### a. 新建一个账户
 点击'新建'后，新建账户
-p7
+![addnew](http://newmetaverse.org/guide/usage/addnew.png)
 备份主私钥助记符
-p8
-**在任何情况下，您都不能向任何人透露您的主私钥助记符，这是您在元界上的唯一凭证，丢失后无法找回！请保管好您的主私钥助记符。**
+![private-keys](http://newmetaverse.org/guide/usage/private-keys.png)
+
+**在任何情况下，您都不能向任何人透露您的主私钥助记符，这是您在元界上的唯一凭证，丢失后无法找回！请务必保管好您的主私钥助记符。**
 #### b. 从已有账户导入
-p9
+![importaccount](http://newmetaverse.org/guide/usage/importaccount.png)
 
 ### 登录
 输入您的本地账户名和密码（刚刚创建或导入的），点击登录
-你可以在登录界面设置语言：
-p10
-
 登录后的界面：
-p11
+![main-page](http://newmetaverse.org/guide/usage/main-page.png)
+ETP转账页面：
+![transfer](http://newmetaverse.org/guide/usage/transfer.png)
 
 
 熵(ETP)币转移和资产操作演示视频
 ---------------------
 [点击在新tab页打开](http://newmetaverse.org/video/issue_asset_mvs_1280x720.MP4)
-<video src="http://newmetaverse.org/video/issue_asset_mvs_1280x720.MP4" width="320" height="240" controls="controls">
+<video src="http://newmetaverse.org/video/issue_asset_mvs_1280x720.MP4" width="640" height="480" controls="controls">
 Your browser does not support the video tag.
 </video>
