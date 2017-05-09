@@ -16,7 +16,7 @@ Click into node1: <http://test1.metaverse.live:8820>
 Click into node4：<http://test4.metaverse.live:8820>
 
 ### Installations
-#### Windows platform
+#### Windows
 1. Get latest release from mvs.live
 download from <http://mvs.live>
 ![download-en](http://newmetaverse.org/guide/download-en.png)
@@ -33,7 +33,7 @@ open 'mvsd', waiting for synchronizing blocks, the height you can exeplorer on <
 4. Usage
 open 'start-metaverse.html'
 ![win-start](http://newmetaverse.org/guide/win-start.png)
-Or you can type in 127.0.0.1:8820 with your brower
+Or you can type in 127.0.0.1:8820 in your brower
 ![login-en](http://newmetaverse.org/guide/login-en.png)
 
 
