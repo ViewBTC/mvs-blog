@@ -1,5 +1,5 @@
 ---
-title: The Installation And Usage Of Metaverse
+title: How Setup Metaverse Client And Command Usages
 date: 2017-04-08 13:44:21
 tags: Metaverse
 categories: Guide
@@ -76,11 +76,14 @@ open 'mvsd', waiting for synchronizing blocks, the height you can exeplorer on <
 # -d run as daemon, otherwise running on your terminal.
 ./mvsd -d
 
-# look up the help message from mvsd
+# see the help message of mvsd
 ./mvsd help
 
-# look up the help message from mvs-cli
+# see the help message of mvs-cli
 ./mvs-cli help
+
+# see the help message for each command
+./mvs-cli help $command
 ```
 
 4. Usage

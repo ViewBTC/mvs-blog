@@ -24,13 +24,13 @@ categories: Guide
 ![win-extract](http://newmetaverse.org/guide/win-extract.png)
 
 3. 运行
-打开'mvsd', 等待同步块完成, 最新块高可以从 <http://explorer.mvs.live> 查询
+打开'mvsd', 等待同步块完成, 这一过程需要四个小时或以上，最新块高可以从 <http://explorer.mvs.live> 查询，同步将一直持续到最新快高。
 (第一次运行可能出现网络访问请求许可)
 ![win-run1](http://newmetaverse.org/guide/win-run1.png)
 ![win-run2](http://newmetaverse.org/guide/win-run2.png)
 
 4. 开始使用
-打开start-metaverse.html, 打开页面后请将该地址收藏
+请不要关闭同步程序，并且打开start-metaverse.html, 打开页面后请将该地址收藏
 ![win-start](http://newmetaverse.org/guide/win-start.png)
 或直接在浏览器中打开输入  127.0.0.1:8820  并回车
 ![login-zh](http://newmetaverse.org/guide/login-zh.png)
@@ -48,11 +48,11 @@ categories: Guide
 ![OSX-install](http://newmetaverse.org/guide/OSX-install.png)
 
 3. 运行
-打开'mvsd', 等待同步块完成, 最新块高可以从 <http://explorer.mvs.live> 查询
+打开'mvsd', 等待同步块完成,这一过程将持续四个小时或以上， 最新块高可以从 <http://explorer.mvs.live> 查询
 ![OSX-run](http://newmetaverse.org/guide/OSX-run.png)
 
 4. 开始使用
-打开start-metaverse.html, 打开页面后请将该地址收藏
+请不要关闭同步程序，并且打开start-metaverse.html, 打开页面后请将该地址收藏
 或直接在浏览器中输入  127.0.0.1:8820  并回车
 ![login-zh](http://newmetaverse.org/guide/login-zh.png)
 
