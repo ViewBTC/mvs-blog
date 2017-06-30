@@ -10,7 +10,7 @@ categories: Guide
 </b></font> 
 
 
-Entry below specify path on your device:
+Please copy and paste the below into the search function on your device:
 Windows
 -------------
 ```
@@ -28,7 +28,7 @@ Linux(unix-like):
 ```
 ~/.metaverse
 ```
-Remove the folder, then startup 'mvsd'.
+Delete the Metaverse folder, then start up 'mvsd'.
 移除（重命名）该文件夹，然后启动mvsd.
 
 
