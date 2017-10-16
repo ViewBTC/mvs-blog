@@ -4,7 +4,8 @@ date: June 20, 2017 7:00 PM
 tags: Metaverse
 categories: Guide
 ---
-
+**注意：本文档适用于0.6.10及一下版本钱包。
+[0.7.0版本钱包使用手册](http://mvs.live/attachment/Metaverse-wallet-manual070.pdf)**
 当您在元界钱包申请一个新账户时，可以收到钱包提供的一串助记关键词：
 ![1](http://bbs.viewfin.com/data/attachment/forum/201705/31/113315sup9cc5jnjgz3zsn.png)
 如上图红色马赛克的部分，助记关键词是一串英文单词。

@@ -4,6 +4,8 @@ date: June 20, 2017 7:00 PM
 tags: Metaverse
 categories: Guide
 ---
+**注意：本文档适用于0.6.10及一下版本钱包。
+[0.7.0版本钱包使用手册](http://mvs.live/attachment/Metaverse-wallet-manual070.pdf)**
 
 如需将ETP从元界钱包转到其他地址，请按照如下操作进行：
 

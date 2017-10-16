@@ -4,7 +4,7 @@ date: 2017-04-08 13:44:21
 tags: Metaverse
 categories: Guide
 ---
-
+This documentation applies to Metaverse Wallet (version 0.6.10 and earlier versions).
 [简体中文版本 Simplified Chinese Documentation](http://blog.mvs.live/mvs-user-guide-zh/)
 
 

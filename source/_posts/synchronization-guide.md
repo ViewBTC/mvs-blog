@@ -4,6 +4,8 @@ date: June 20, 2017 7:00 PM
 tags: Metaverse
 categories: Guide
 ---
+**注意：本文档适用于0.6.10及一下版本钱包。
+[0.7.0版本钱包使用手册](http://mvs.live/attachment/Metaverse-wallet-manual070.pdf)**
 
 **1、如何判断元界钱包是否在同步**
 ![1](http://bbs.viewfin.com/data/attachment/forum/201705/25/161839i8g0m0g2v2ee692j.png)

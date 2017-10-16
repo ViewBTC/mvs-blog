@@ -4,10 +4,14 @@ date: 2017-04-08 13:44:21
 tags: Metaverse
 categories: Guide
 ---
+本文档适用于0.6.10及以下版本钱包。
 [Go to English Version](http://blog.mvs.live/mvs-user-guide-en/)
+[0.7.0及以上版本钱包使用手册](http://mvs.live/attachment/Metaverse-wallet-manual070.pdf)
 
 开始
 ---------------
+###常见问题解答
+钱包客户端常见问题解答：[Q&A](https://blog.mvs.live/qa-for-mvs/)
 ### 试用
 元界提供测试网络的WEB在线测试页面
 点击进入测试节点1: <http://test1.metaverse.live:8820>
