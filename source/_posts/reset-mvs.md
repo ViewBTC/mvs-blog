@@ -9,26 +9,17 @@ categories: Guide
 注意: 请在做重置操作前备份好您所有账户的主私钥助记符（即注册账户时生成的24个单词）。
 </b></font> 
 
+Uninstall Metaverse wallet from your device.
 
-Please copy and paste the below into the search function on your device:
-Windows
--------------
+Please copy and paste the below into the path search function on your device:
 ```
+# Windows: Explorer
 %HOMEPATH%\AppData\Roaming\Metaverse
-```
 
-Mac-OSX
--------------
-```
-~/Library/Application\ Support/Metaverse
-```
+# Mac-OSX: Finder => go to folder
+~/Library/Application Support/Metaverse
 
-Linux(unix-like):
--------------
-```
+# Linux(unix-like):
 ~/.metaverse
 ```
-Delete the Metaverse folder, then start up 'mvsd'.
-移除（重命名）该文件夹，然后启动mvsd.
-
-
+Rename the 'Metaverse' folder as 'Metaverse.bak', then install Metaverse installation package again.

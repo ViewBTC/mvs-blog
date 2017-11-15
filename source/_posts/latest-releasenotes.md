@@ -1,82 +1,68 @@
 ---
-title: Metaverse元界最新版钱包客户端-0.7.0版发布
-date: September 6, 2017 3:16 AM
+title: Metaverse元界最新版钱包客户端-0.7.1版发布
+date: October 20, 2017 11:28 AM
 tags: upgrade
 categories: Releasenotes metaverse
 ---
-### 0.7.0版本更新如下###
+### 0.7.1版本更新内容
 
-1.界面重新设计，全新钱包UI
+1、修复部分用户无法锁仓ETP的问题；
 
-2.重构多重签名命令，优化输出方式 
+2、增加自主填写矿工费功能；
 
-3.扩展send命令，发送交易时携带附加信息
+3、前台新增多重签名地址的创建、多重签名交易发送模块；
 
-4.新增账户高级备份，账户可导出到加密文件
+4、在发送交易时，将多签名地址与普通地址隔离；
 
-5.优化getaccountasset命令，在资产信息中增加该资产数量及其所附属地址信息
+5、增加ETP存款到期块高显示功能；
 
-6.优化listtxs命令提升执行性能并支持分页查看
+6、修复服务器偶尔无法链接的bug；
 
-7.优化日志系统，限制log file占用磁盘空间大小
+7、修复重新安装后页面显示异常的问题；
 
-8.优化钱包安装程序，新增程序后台运行功能
+8、钱包进程优化，极大减少针对系统资源的占用；
 
-9.新增钱包程序在安装过程中初始化数据库功能
+9、钱包UI的进一步调整和优化；
 
-10.新增带块数据库的安装包，减少钱包同步时间
+==0.7.1安装包有标准版和数据包版，数据包版为自带数据库的安装版本，可以极大节省第一次的区块同步时间，建议新用户下载安装；由于数据包版可能会覆盖原始数据，建议老用户安装标准版。==
 
-<font color="ff0000">0.7.0版本安装包有标准版和数据包版，数据包版为自带数据库的安装版本，可以极大节省第一次的区块同步时间，建议新用户下载安装；由于数据包版可能会覆盖原始数据，建议老用户安装标准版。</font>
+### 0.7.1版本更新指南（Windows）
+一、请到官网http://mvs.org下载安装程序：
 
-### 0.7.0版本更新指南（Windows）###
-一、请到官网[http://mvs.org](http://mvs.org)下载安装程序，安装程序如下：
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/023807u4gz842k6lpoz99d.png)
-二、双击安装程序，按照提示的步骤安装
+![](http://bbs.viewfin.com/data/attachment/forum/201710/20/105649qbillxkukyo9ivb9.png)
 
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/022256xkxehqbbkz5500vx.png)
+二、点击安装程序，按照提示的步骤安装，不需要提前卸载旧版本。
+
+![](http://bbs.viewfin.com/data/attachment/forum/201710/20/105714nc8xhnzm833hxhyn.png)
 
 三、安装完毕后，会在桌面上出现钱包的启动快捷方式，如下：
 
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/025417rbgan36pd7j9gav7.png)
+![](http://bbs.viewfin.com/data/attachment/forum/201710/20/105745ushm64aeclkq6s4q.png)
 
 四、双击钱包程序，开启钱包
 
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/024423aioqvvobl3jnvjiv.png)
+![](http://bbs.viewfin.com/data/attachment/forum/201710/20/105818d2zeuew3otoeoh2u.png)
 
 五、钱包开启后，运行图标会显示在任务栏，同步程序后台进行，退出钱包时，请在任务栏右键退出。
 
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/025301g4q9qskyz86aimak.png)
+![](http://bbs.viewfin.com/data/attachment/forum/201710/20/105845ds34b48nzz848ds5.png)
 
-### 0.7.0版本更新指南（OS X）###
-一、请到官网[http://mvs.org](http://mvs.org)下载安装程序，安装程序如下：
+### 0.7.1版本更新指南（OS X）
 
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/025843h3gev8720aagwii0.jpg)
+一、请到官网http://mvs.org下载安装程序：
+
+![](http://bbs.viewfin.com/data/attachment/forum/201710/20/105910ay0wy00zwj6xv40j.png)
 
 二、双击安装程序，按照提示的步骤安装
 
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/025822vyash727795zhkyf.jpg)
+![](http://bbs.viewfin.com/data/attachment/forum/201710/20/105937kwwswa2nac6g9aw6.jpg)
 
-三、安装完毕后双击开启钱包
+三、钱包开启后，运行图标会显示在任务栏，同步程序后台进行，退出钱包时，请在任务栏右键退出。
 
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/030626q7oi67ae5s4r8d66.png)
-
-四、钱包开启后，运行图标会显示在任务栏，同步程序后台进行，退出钱包时，请在任务栏右键退出。
-
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/030251btefhcfftoesnth2.jpg)
+![](http://bbs.viewfin.com/data/attachment/forum/201710/20/110126r83y6swk36y0ld9l.jpg)
 
 ### 注意事项
-1、Windows系统安装0.7.0版本后可将电脑中的0.6.0版本卸载；卸载方法：设置 >> 应用 >> Metaverse >> 卸载
-![](http://bbs.viewfin.com/data/attachment/forum/201709/06/020200ae3ueeix37xx1ktg.png)
+
+1、如果安装后打开钱包仍旧为老版本，或者新版本登录后点击无反应，请在浏览器设置中清除近一个月的数据，然后关掉浏览器，重新打开钱包即可。不推荐使用Windows自带IE浏览器。
+
 2、此版本不支持OS X El Capitan及以下OS X系统。
-
-
-
-
-
-
-
-
-
-
-以上,
-元界核心开发和运营团队
